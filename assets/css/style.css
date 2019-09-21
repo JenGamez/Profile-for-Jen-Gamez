@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+  }
+
+body { 
+       display: flex;
+       flex-direction: column;   
+       width: 960px;
+       margin: 0;
+      
+     }
+
+header {
+       background: white;
+       width: 100%;
+}
+
+.Body-Wrapper {
+       margin: auto;
+
+}
+
+.inner{
+       width:100%;
+       display: flex;
+       flex-wrap: wrap;
+}
+
+.Blocks {
+       width: 50%;
+       position: relative;
+       height: 300px;
+       padding: 20px;
+}
+
+.Blocks h3{
+       position: absolute;
+       background-color: #4aaaa5;
+       color: white;
+       width: 100%;
+       text-align: center;
+       padding: 5px;
+       bottom: 5px;
+}
+
+.Blocks img {
+       width: 100%;
+       height: 300px;
+}
+
+.Wrapper-Top {
+       font-family: 'Georgia', Times, 'Times New Roman', serif;
+       background: #ffffff;
+       border-color: #cccccc;
+       display: flex;
+       align-items: center;
+       margin: auto;
+       width: 800px;
+       padding: 20px;
+       justify-content: space-between;
+      
+}
+
+.Name {
+       justify-content: flex-start;
+     
+}
+
+.Body-Wrapper {
+       background-position: center;
+  }
+
+.content {
+       color: #777777;
+       background: url(../../assets/images/spring.png) repeat;
+       border-top: 3px #cccccc solid;
+}
+
+.Wrapper {
+       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+       background: #ffffff;
+       border-color: #777777;
+       margin: auto;
+       padding-bottom: 20px;
+       max-width: 800px;
+       /* display: flex; */
+       border: #cccccc solid 1px;
+           
+    }
+
+ .Name {
+        background: #4aaaa5;
+        color: white;
+        text-align: center;
+        width: 270px;
+        justify-self: flex-start;
+        padding: 2px;
+        margin: 0
+
+ } 
+
+ 
+
+ .header-navigation {
+        color: #777777;
+        margin: 0;
+        justify-self: flex-end;
+        align-self: flex-end;
+        
+ }
+
+ .About {
+       
+        padding: 0px 0px 20px 20px;
+        /* border-bottom: #cccccc solid 2px; */
+        color: #4aaaa5;
+        border-bottom: 2px solid #cccccc;
+ }
+
+.Contact {
+        flex-grow: 1;
+        border-bottom: #cccccc solid 2px;
+        color: #4aaaa5;
+        padding: 0px 20px;
+}
+
+.form-group p {
+       width: 100%;
+       display: block;
+}
+
+.form-group {
+
+       width: 100%;
+       
+}
+
+.My-Contact-Page {
+       width: 100%;
+}
+
+#name, #email, #msg{
+       display: block;
+       width: 100%;
+}
+
+.Submit {
+       background: #4aaaa5;
+}
+
+.id {
+       display: flex;
+       flex-direction: row;
+       flex-grow: 1;
+       padding: 20px;
+}
+
+.Portfolio {
+       flex-grow: 1;
+       padding-bottom: 20;
+       border-bottom: #cccccc solid 2px;
+       color: #4aaaa5;
+}
+
+.Paragraphs {
+       line-height: 1.5;
+}
+
+.Par1  {
+       margin-top: 0;
+       margin-left: 20px;
+}
+
+.Par2 {
+       margin-top: 0;
+       padding-left: 20px;
+       line-height: 1.5;
+}
+
+ .main {
+     padding: 20px;
+     margin-top: 0px;
+     margin-bottom: 0;
+     width: 100%;
+     background-color: white;
+     top: 20px;
+     display: flex;
+ }
+
+ .footer  {
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+        background: #666666;
+        height: 50px;
+        width: 100%;
+        border-top: 6px solid #4aaaa5 ;
+ }
